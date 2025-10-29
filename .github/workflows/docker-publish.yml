@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       IMAGE_NAME: hrocha/python
-      TAG_SUFFIX: -alpine-gcc
+      TAG_SUFFIX: -uv-alpine-gcc
       PYTHON_VERSIONS: "3.13"  # <--- adicione versões aqui
 
     steps:

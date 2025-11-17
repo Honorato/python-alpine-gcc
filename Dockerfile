@@ -7,7 +7,7 @@ LABEL maintainer="hrocha"
 LABEL description="Image with Alpine, Python, uv and GCC"
 
 # Instala compiladores e libs básicas
-RUN apk add --no-cache build-base linux-headers
+RUN apk add --no-cache build-base linux-headers git
 
 WORKDIR /app
 COPY . .
